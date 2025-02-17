@@ -80,7 +80,7 @@ order by average_candidacy_vote_count desc
 ```
 
 Here we can see the use of the __order by__ clause. this orders the output. The letters 'desc' stand for desc-ending so we can see the highest value at the top.
-side note the ability in postgres to refer to calculated values directly in the order by is far more flexible than sql server sql.
+
 
 We may instead decide instead of seeing the whole range of values we just want to see our top value or top 5 values using the limit clause. (try to add the clause into the query)
 
