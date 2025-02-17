@@ -56,7 +56,7 @@ from candidacies
 where is_standing_as_independent = 1
 --again is_standing_as_independent is binary 1 = is standing as independent, 0 = is not standing as independent
 /*output shows it more unusual for independent candidancies to be a sitting mp */
-,,,
+```
 
 Because the categories are relatively simple you might want to put candidate_is_sitting_mp and is_standing_as_independent in the output.
 
