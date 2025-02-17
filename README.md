@@ -34,7 +34,7 @@ from candidacies
 The AS just provides a name to the column on the output
 The counts you receive should be identical as every row must have a unique id
  */
-''
+```
 
 You can use this count of unique values or the count all to count grouped values.
 
