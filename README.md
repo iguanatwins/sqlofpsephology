@@ -98,7 +98,7 @@ We have covered lots of clauses and a function. We'll come back to all these lat
 Next we will move onto how different tables can relate to one another to give more context to our outputs or add new information.
 
 
-### 1.2 Databases are used to define different concepts and how they relate to one another, making the data a bit more flexiable.
+### 1.2 Databases are used to define different concepts and how they relate to one another, making the data a bit more flexible.
 
 In 1.1 we focused on one entity 'candidacies'. 
 
@@ -147,7 +147,7 @@ This is known as order of execution, it's a bit boring but can help with writing
 ### 1.5 We can chose data through more complex ways and relate things to themselves
  
 
-over(partition by)
+over(partition by) -- unfortunately we can't refer to the individual elements table through indexes like when we're using fancy things like pandas in python calcs have to be applied over logical sets
 
 subqueries
 
