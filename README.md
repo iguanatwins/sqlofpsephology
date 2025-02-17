@@ -91,7 +91,7 @@ Or may want to use the having clause to only we family names which only had over
 select candidate_family_name, SUM(vote_count)AS 'total_family_name_vote_count', MIN(vote_share)
 from candidacies
 group by candidate_family_name
-WHERE MIN(vote_share) > 0.1
+HAVING MIN(vote_share) > 0.1
 ```
 
 We have covered lots of clauses and a function. We'll come back to all these later. 
