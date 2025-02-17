@@ -24,7 +24,7 @@ limit 100 --> this sets how many rows I would like to return, you can change to 
 We can see the ID in the first column which as per convention is unique for each row in the table thus giving the unique identfier.
 
 We can check this across the whole table, we will use the __count__ function and the __distinct__ clause within a select statement. 
-Clauses in sql make limits on on the data to be returned (i.e. we only want the distinct values here to be returned not all). Functions use the data as an input to give another output.
+Clauses in sql put specfications on on the data to be returned (i.e. we only want the distinct values here to be returned not all). Functions use the data as an input to give another output.
 
 ```
 select count(*) as 'count_rows', 
