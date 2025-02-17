@@ -8,7 +8,7 @@ This database used postgres sql, sql comes in many flavours. postgres is a good 
 
 ## 1. What is a Database? Why Would I use one?
 
-### 1.1 They organise information to make searching fast and summarising easy!
+### 1.1 They organise information to make searching fast and summarising easy
 __Indexes and unqiue keys__
 
 Databases organise information into tables. These have 'Keys' or 'IDs' which enable the tables to be indexed, these are unique to each row.
