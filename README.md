@@ -75,7 +75,7 @@ we can also divide
 select candidate_family_name, SUM(vote_count)AS 'total_family_name_vote_count', SUM(vote_count)/count(distinct id) AS 'average_cadidancy_vote_count'
 from candidacies
 group by candidate_family_name
-order by SUM(vote_count)/count(distinct id) desc
+order by average_candidacy_vote_count desc
 
 ```
 
