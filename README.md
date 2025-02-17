@@ -3,8 +3,7 @@
 
 Micheal has a very nice relational database for the election results website we will use.
 
-We can query it here: https://psephology-datasette-f3e7b1b7eb77.herokuapp.com/psephology?sql=select+ca.name%2C+MAX%28pp.cumulative_vote_count%29+%0D%0Afrom+boundary_set_general_election_party_performances+pp%0D%0Ainner+join+boundary_sets+bs%0D%0Aon+bs.id+%3D+pp.boundary_set_id+%0D%0Ainner+join+constituency_areas+ca%0D%0Aon+ca.boundary_set_id+%3D+bs.id%0D%0Agroup+by+political_party_id
-
+We can query it here: https://psephology-datasette-f3e7b1b7eb77.herokuapp.com/psephology
 This database used postgres sql, sql comes in many flavours. postgres is a good one to learn it is similar to sql server (microsoft) or oracle, but a little more flexiable. Mysql is a bit more weird, but same general concepts.
 
 ## 1. What is a Database? Why Would I use one?
