@@ -116,7 +116,7 @@ from candidacies -- 'candidacies' is the table name,
 limit 25 --> this sets how many rows I would like to return, you can change to number to how many you would like
 ```
 
-
+[...not finished ...]
 
 
 ### 1.31 We can draw out these relationships in diagrams so they look a bit more physical
@@ -132,15 +132,17 @@ It has lots of relationships between entities.
 
 First there's some basic notation, this is known as UML.
 
+[...not finished ...]
 
 ### 1.32 We can use these relationships to make our outputs a bit more complex
 
-
+[...not finished ...]
 
 ### 1.4 When a computer is executing a sql statement the clauses are applied in a set order
 
 This is known as order of execution, it's a bit boring but can help with writing statements and where you might not be getting the number you think you should.
 
+[...not finished ...]
 
 ### 1.5 We can chose data through more complex ways and relate things to themselves
  
@@ -149,15 +151,16 @@ over(partition by)
 
 subqueries
 
+[...not finished ...]
+
 ### 1.6 the data is always typed this saves space and makes calculations easier
 
 
-
+[...not finished ...]
 
 ## 2.0 Lets make our own Entity Relationship Diagrams
 
 Lets work out some solid entities and their relationships.
 
-[This will require some data... or we could think of a problem set]
 
 
